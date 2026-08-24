@@ -1,0 +1,57 @@
+:root {
+  --cor-principal: #061a14;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+}
+header{
+    width: 100%;
+    max-width: 600px;
+    height: 150px;
+    margin: 0 auto;
+    background-color: var(--cor-principal);
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    padding: 15px;
+    
+}
+
+header .logo {
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+main{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    text-decoration: none;
+}
+section{
+    width: 100%;
+    background-color: var(--cor-principal);
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px auto;
+}
+section:hover{
+    background-color: #034b35;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 15px;
+}
